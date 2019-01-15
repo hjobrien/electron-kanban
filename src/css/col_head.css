@@ -1,0 +1,16 @@
+.col-head{
+    background: gray;
+    border-bottom: 2px;
+    display: table;
+}
+
+.header-text{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#nonstatic{
+    background: blue;
+}
