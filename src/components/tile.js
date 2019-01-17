@@ -2,7 +2,7 @@
  * Created by Hank on 1/13/19.
  */
 import React from 'react';
-import './css/task_tile.css'
+import '../css/task_tile.css'
 
 class Tile extends React.Component {
     render() {

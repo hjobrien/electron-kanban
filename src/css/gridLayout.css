@@ -1,0 +1,39 @@
+.grid-component{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    display: table;
+}
+
+.grid-component p {
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.layout {
+    /*position: absolute;*/
+    float: left;
+}
+
+.task-column {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding-left: 3px;
+}
+
+#tasks {
+    /*float: left;*/
+    z-index: 2;
+    margin-left: 100px;
+}
+
+#lanes {
+    /*position: absolute;*/
+    z-index: 1;
+}
+
+#padding {
+    min-width: 100px;
+    /*float: left;*/
+    min-height: 100px;
+}
