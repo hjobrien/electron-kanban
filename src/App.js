@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './css/App.css';
 import './css/lane.css';
 import Lane from './components/lane';
@@ -10,10 +9,13 @@ class App extends Component {
     return (
       <div className="App">
         {/*<Grid/>*/}
-          <Lane text="col1" id="left-most-lane">
+          <Lane text="To Do" id="left-most-lane">
               <Task taskName="foo" taskText="some details"/>
           </Lane>
-          <Lane text="col2">
+          <Lane text="In Progress">
+
+          </Lane>
+          <Lane text="Done">
 
           </Lane>
       </div>
