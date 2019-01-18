@@ -10,7 +10,7 @@ class Task extends React.Component {
 
     render() {
         const shortnedTaskText = this.props.taskText; //TODO: make this automatically crop to a certain number of characters
-        return <div key="{this.props.key}" className={'task-tile grid-component ' + this.props.className} style={this.props.style}>
+        return <div key="{this.props.key}" className={'task-tile ' + this.props.className} style={this.props.style}>
             {this.props.children}
             <div className="taskTitleContainer">
                 <h4>{this.props.taskName}</h4>

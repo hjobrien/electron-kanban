@@ -9,7 +9,7 @@ import {pick} from "lodash";
 class ColHead extends React.Component {
 
     render() {
-        return <div key="{this.props.key}" className={'col-head grid-component ' + this.props.className} style={this.props.style}>
+        return <div key="{this.props.key}" className={'col-head ' + this.props.className} style={this.props.style}>
             {this.props.children}
             <h1 className="header-text">{this.props.text}</h1>
         </div>;
