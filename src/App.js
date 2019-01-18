@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './css/App.css';
 import './css/lane.css';
 import Lane from './components/lane';
+import Task from './components/task';
 
 class App extends Component {
   render() {
@@ -10,7 +11,7 @@ class App extends Component {
       <div className="App">
         {/*<Grid/>*/}
           <Lane text="col1" id="left-most-lane">
-
+              <Task taskName="foo" taskText="some details"/>
           </Lane>
           <Lane text="col2">
 

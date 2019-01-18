@@ -1,15 +1,16 @@
 .lane {
-    background: cyan;
+    background: white;
     /*TODO: make adaptive based on num cols and window width*/
     width: 20em;
 
     /*TODO: make adaptive based on max tasks in any column*/
     height: 30em;
 
-    display: inline-block;
+    float: left;
     border-right: 1px solid black;
 }
 
 #left-most-lane {
     border-left: 1px solid black;
+    margin-left: 1em;
 }
