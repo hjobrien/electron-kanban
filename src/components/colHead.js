@@ -3,7 +3,6 @@
  */
 import React from 'react';
 import '../css/col_head.css'
-import '../css/gridLayout.css'
 import {pick} from "lodash";
 
 class ColHead extends React.Component {

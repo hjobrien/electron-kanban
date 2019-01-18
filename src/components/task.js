@@ -3,7 +3,6 @@
  */
 import React from 'react';
 import '../css/task_tile.css'
-import '../css/gridLayout.css'
 import {pick} from "lodash";
 
 class Task extends React.Component {

@@ -3,7 +3,6 @@
  */
 import React from 'react';
 import '../css/buttonDiv.css'
-import '../css/gridLayout.css'
 import {pick} from "lodash";
 
 class ButtonDiv extends React.Component {
