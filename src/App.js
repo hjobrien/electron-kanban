@@ -5,6 +5,7 @@ import Lane from './components/lane';
 import Task from './components/task';
 import SideMenu from './components/side_menu';
 import ButtonDiv from './components/buttonDiv';
+import TaskDetailFrame from './components/taskDetailFrame';
 
 class App extends Component {
   render() {
@@ -22,6 +23,7 @@ class App extends Component {
           <Lane text="Done">
 
           </Lane>
+          <TaskDetailFrame taskName="foo" taskText="a really long description"/>
       </div>
     );
   }

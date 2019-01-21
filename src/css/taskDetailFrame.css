@@ -1,0 +1,17 @@
+.task-detail-frame{
+    background: green;
+    opacity: 0.9;
+    padding: 1em;
+
+    position: absolute;
+    transform: translate(22em, 10em);
+
+    width: 30em;
+    height: 10em;
+
+    visibility: visible;
+}
+
+.taskDetailTitle{
+    text-align: left;
+}
